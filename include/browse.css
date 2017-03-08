@@ -1,0 +1,355 @@
+/* general browse */
+
+.recordImageBlock.selected, .recordImageBlock.noResults, #listview .selected, #listview .noResults {
+	background-color: #FFFFCC;
+	border: 1px solid #FC3;
+	border-collapse: collapse;
+	margin-left: 1px;
+	padding-right: 0px;
+}
+
+.viewSwitch {
+	float: right;
+	display: none;
+	margin: 10px;
+}
+
+.pager {
+	margin: 10px;
+}
+
+.beta {
+	font-size: 9px;
+	color: #CC0000;
+}
+
+#TB_window .lowerPager {
+	padding-bottom: 10px;
+}
+
+#browseTitlebar {
+	margin: 10px 0;
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#chatnow {
+	margin-right: 10px;
+}
+
+/* cover view */
+
+#mycarousel {
+	display:none; /* taking this out seems to cause some issues...*/
+}
+
+.recordImageBlock {
+	width: 165px;
+	padding: 10px 5px 5px 10px;
+}
+
+.recordImageBlock .coverBlock {
+	width: 165px;
+	height: 212px;
+}
+
+.recordImageBlock .coverBlock .a {
+	display: block;
+	width: 150px;
+}
+
+.recordImageBlock .fakeImage {
+	width: 150px;
+	height: 200px;
+	border: 1px solid #ffffff; /* change AMP */
+}
+
+.recordImageBlock .noResultsCover {
+	width: 150px;
+	height: 212px;
+	border: 1px solid #FFFFCC;
+}
+
+.recordImageBlock .coverContents {
+	color: #ffffff;
+	font-family: Georgia,"Times New Roman",Serif;
+	text-align: center;
+	width: 162px;
+	height: 212px;
+}
+/*
+.recordImageBlock .fakeImage .coverContents{
+	width: 162px;
+}*/
+
+.coverShadowRight{background: transparent url(../images/book_shadow_r_lite.gif) repeat-y top right;}
+.coverShadowBottom{background: transparent url(../images/book_shadow_b_lite.gif) repeat-x bottom right;}
+.coverShadowLeft{background: transparent url(../images/book_shadow_bl_lite.gif) no-repeat bottom left;}
+.coverShadowTop{background: transparent url(../images/book_shadow_tr_lite.gif) no-repeat top right;}
+.coverShadowCorner{padding: 0 15px 10px 0; background: transparent url(../images/book_shadow_br_lite.gif) no-repeat bottom right;}
+
+.selected .coverShadowRight{background: transparent url(../images/book_shadow_r_selected.gif) repeat-y top right;}
+.selected .coverShadowBottom{background: transparent url(../images/book_shadow_b_selected.gif) repeat-x bottom right;}
+.selected .coverShadowLeft{background: transparent url(../images/book_shadow_bl_selected.gif) no-repeat bottom left;}
+.selected .coverShadowTop{background: transparent url(../images/book_shadow_tr_selected.gif) no-repeat top right;}
+.selected .coverShadowCorner{padding: 0 15px 10px 0; background: transparent url(../images/book_shadow_br_selected.gif) no-repeat bottom right;}
+
+.recordImageBlock .coverContents.cover1 {
+	background-image: url("../images/book_1.jpg");
+	background-repeat: none;
+}
+
+.recordImageBlock .coverContents.cover2 {
+	background-image: url("../images/book_2.jpg");
+	background-repeat: none;
+}
+
+.recordImageBlock .coverContents.cover3 {
+	background-image: url("../images/book_3.jpg");
+	background-repeat: none;
+}
+
+.recordImageBlock .coverContents.cover4 {
+	background-image: url("../images/book_4.jpg");
+	background-repeat: none;
+}
+
+.recordImageBlock .coverContents.cover5 {
+	background-image: url("../images/book_5.jpg");
+	background-repeat: none;
+}
+
+.recordImageBlock .coverContents img {
+	max-width: 150px;
+	max-height: 200px;
+}
+
+.locationBlock table {
+	margin-top: 5px;
+}
+
+table.coverTable, #TB_window table.coverTable {
+	margin: 0 7px 6px 13px;
+}
+
+.recordImageBlock .noResultsContents {
+	color: black;
+	text-align: center;
+}
+
+.recordImageBlock .coverContents td, .recordImageBlock .noResultsContents td {
+	width: 130px;
+	height: 192px;
+	overflow: hidden;
+}
+.recordImageBlock .coverContents .title, .recordImageBlock .coverContents .divider {
+	font-size: 13px;
+	color: #FFFFFF;
+	font-family: "Arial",Serif;
+}
+
+.recordImageBlock .coverContents .author {
+	font-size: 11px;
+	color: #FFFFFF;
+	font-family: "Arial",Serif;
+}
+
+.recordImageBlock .coverContents .tilde {
+	font-size: 11px;
+	color: #FFFFFF;
+	font-family: "Arial",Serif;
+}
+
+.recordImageBlock .mouseoverBlock {
+	display: none;
+	background-color: #FFFFCC;
+	border: 1px solid #D6D6D6;
+}
+
+.coverBlock div, .coverBlock img {
+	cursor: pointer;
+}
+
+.coverBlock a:active, coverBlock a:link {
+	text-decoration: none;
+}
+
+.coverBlock.noResultsBlock: {
+	cursor: default;
+}
+
+/* View switcher */
+
+.viewSwitch {
+	float: right;
+	display: none;
+}
+.viewSwitch div {
+	display: inline;
+}
+
+.viewSwitch .active {
+	color: #034EA2;
+	cursor: pointer;
+}
+
+/* list view */
+
+#listview {
+	list-style-type: none;
+	padding: 0;
+	margin: 10px;
+}
+
+
+#listview hr {
+	margin: 0;
+}
+
+#listview .hidden {
+	display: none;
+}
+
+.recordListBlock{
+	padding: 10px 5px;
+}
+
+.recordListBlock th, .recordListBlock td{
+	vertical-align: top;
+}
+
+.recordListBlock th table, .recordListBlock th table *,
+.recordListBlock td table, .recordListBlock td table * {
+	border-top: 0; border-bottom: 0; 
+	margin-top: 0; margin-bottom: 0; 
+	padding-top:0; padding-bottom: 0;
+	border-spacing: 0;
+}
+
+.recordListBlock th table, .recordListBlock td table {
+	width: 30em;
+}
+
+table .oddLocation {
+	background: #eee;
+}
+
+.selected table .oddLocation {
+	background: #eeb;	
+}
+
+.recordListBlock td table td, .recordListBlock td table th,
+.recordListBlock th table td, .recordListBlock th table th{
+	width: 15em;
+}
+
+.recordListBlock .title {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.recordListBlock .data.callnum {
+	font-weight: bold;
+}
+
+.recordListBlock .noResultsMsg {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.recordListBlock .availability.available {
+	color: green;
+}
+.recordListBlock .availability.unavailable {
+	color: red;
+}
+
+#TB_window .browseShelfHeader, #TB_window .browseShelfContent {
+	font-family:verdana,arial,sans-serif;
+}
+
+#TB_window .viewSwitch, #TB_window .pager, #TB_window .recordListBlock .metadata{
+	font-size: 11px;
+}
+
+#TB_window .pager a, #TB_window .recordListBlock a{
+	color:#034EA2;
+	text-decoration: none;
+}
+
+.browsePagerPrev{
+	padding-left: 14px;
+	background: transparent url(../images/browse_prev_sm.gif) no-repeat left;
+	
+}
+
+.browsePagerNext{
+	padding-right: 14px;
+	background: transparent url(../images/browse_next_sm.gif) no-repeat right;
+}
+
+.browsePagerNext, .listView{
+	padding-left:0.4em;
+	border-left: solid 1px #434343;	
+}
+
+#TB_window .recordListBlock{
+	padding: 10px 5px 10px 5px;
+}
+
+#TB_window #listview {
+	margin: 10px 0 10px 0;
+}
+
+.browseCloser{
+	font-size: 11px;
+	padding-right: 20px;
+	font-weight: normal;
+	background: transparent url(../images/close.png) no-repeat right;
+	position: relative;
+	top: -5px;
+	left: 10px;
+}
+.jcarousel-skin-tango .jcarousel-item {
+	height: 225px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+	height: 375px;
+}
+
+.tooltip {
+	overflow: visible;
+}
+
+.coverBlock{
+	position: relative;
+}
+
+.browseItem{
+	overflow: visible;
+}
+
+#mycarousel{
+	height: 375px;
+}
+
+.jcarousel-skin-tango .jcarousel-container {
+	background: none;
+    border: none;
+}
+
+.jcarousel-skin-tango .jcarousel-container {
+	background: none;
+    border: none;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    background: transparent url(../images/browse_prev_lg.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    background: transparent url(../images/browse_next_lg.png) no-repeat 0 0;
+}

@@ -1,0 +1,32 @@
+
+body {
+	z-index: 1;
+}
+
+.tooltip {
+	z-index: 11;
+	position: absolute;
+	border: 1px solid #111;
+	background-color: #eee;
+	padding: 3px 5px;
+	width: 155px;
+}
+.tooltip h3, #tooltip div { margin: 0; }
+
+.tooltip .title, .tooltip .callNum {
+	font-size: 13px;
+	font-family: "Arial",Serif;
+}
+
+.tooltip .callNum {
+	font-weight: bold;
+}
+
+.tooltip .title .pubYear {
+	color: #505050;
+}
+
+.tooltip .author {
+	font-size: 11px;
+	color: #707070;
+}

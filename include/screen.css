@@ -1,0 +1,182 @@
+/* Locally defined CSS styles for Endeca-based catalog search results */
+/* Author:        Tito Sierra, Emily Lynema, Andreas Orphanides */
+
+/* multi-purpose */
+
+html {
+	overflow-y: scroll;
+}
+
+a { 
+  color: #034ea2;
+}
+
+.noBorder {
+	border-collapse: collapse;
+}
+
+.box {
+ 	border: gray 1px solid;
+ 	margin: 0px;
+ 	padding: 5px;
+ }
+
+.blockHeader {
+	margin-top: 0px;
+  	font-size: 12px;
+  	padding: 5px 0px 5px 0px;
+  	color: #444;
+  	margin-bottom: 0px;
+  	font-weight: bold;
+}
+
+
+hr {
+	border: 0;
+	margin: 0px 15px 0px 15px;
+	background-color: #AAA;
+	height: 1px;
+}
+
+.right {
+	float: right;
+	margin-top: 5px;
+}
+
+/* search bar */
+
+
+#layoutSearchTable {
+	padding: 0;
+	margin: 0;
+  	width: 100%;
+}
+
+#layoutSearchLeftColumn {
+  	vertical-align: top;
+	padding: 0px;
+}
+
+#layoutSearchRightColumn {
+	width: 35%;
+	vertical-align: top;
+	padding: 0px;
+}
+
+/* search bar */
+
+tr.searchBarRow {
+	vertical-align: top;
+}
+
+.searchBarBlock {
+  	margin-top: 5px;
+  	border: 1px solid #AAA;
+  	background-color: #EEE;
+  	/*margin-left: 5px;
+  	margin-right: 5px;*/
+  	margin-bottom: 0px;
+}
+
+.expandSearchBlock {
+  	margin-top: 5px;
+  	border: 1px solid #AAF;
+  	background-color: #EEF;  
+  	margin-bottom: 0px;
+  	/* min-height: 85px; */
+}
+
+.searchBarBlockContent {
+	padding: 8px 10px 10px 10px;
+}
+
+.expandSearchBlock .searchBarBlockContent {
+	padding: 5px 10px 5px 10px;
+}
+
+.searchFormElement { 
+	font-size: 12px; 
+}
+
+a.startover {
+	color: #0000FF;
+}
+
+#searchTrlnTagline {
+  margin-left: 13px;
+}
+
+#searchBarBlockHeader, #expandSearchBlockHeader {
+ 	padding-left: 5px;
+  	padding-right: 5px;
+}
+
+#searchBarBlockHeader {
+  	background-color: #CCC;
+  	margin-left: 0px;
+	margin-right: 0px;
+	vertical-align: top;
+  
+}
+
+#expandSearchBlockHeader {
+  	background-color: #CCF;
+  	margin-left: 0px;
+	margin-right: 0px;
+	vertical-align: top;
+  
+}
+
+#breadcrumbBlockHeader {
+  background-color: #CCC;
+}
+
+
+/* used across endeca catalog */
+
+.metadataLabel {
+ 	color: #666;
+ 	vertical-align: top;
+}
+
+span.resultAvailabilityAvailable { 
+	color: #090;
+}
+
+span.resultAvailabilityCheckedOut { 
+	color: #C00;
+}
+
+span.black {
+	color: #000000;
+}
+
+/* Error page */
+
+td#errorMessage {
+	padding: 20px;
+}
+
+#errorHeading {
+	font-size:14px;
+	font-weight:bold;
+	line-height:125%;
+}
+
+.errorLink {
+	display: block;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.errorText {
+	padding-top: 5px;
+}
+
+
+/* Chat widget */
+
+.chatButton {
+	margin-left: 5px;
+	border: 0;
+} 
